@@ -15,6 +15,7 @@ _________ .____       _____    _________ ____________________ _________
 	margin-top: 10%;
 }
 
+
 /*
 
 ________________    ________  _________
@@ -25,8 +26,9 @@ ________________    ________  _________
                 \/        \/        \/ 
 
 */
-html{
-	padding: 0;
+body{
+	margin: 0;
+	height: 100vh;
 }
 form{
 	display: flex;
@@ -48,7 +50,7 @@ label{
 	font-weight: bold;
 }
 
-input[type=text], form input[type=password]{
+input[type=text], input[type=password]{
 	font-family: sans-serif;
 	width: 100%;
 	padding:2%;
@@ -78,4 +80,145 @@ a{
 a:hover{
 	text-decoration: underline;
 	color: white;
+}
+input[type=text].search{
+	width: 70%;
+	margin: 20% auto auto 15%;
+	padding: 1%;
+	border-radius: 5vw;
+
+}
+
+/*FROM PRESS CAFE*/
+.section-title{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+
+}
+.section-title h2{
+	font-family: "open sans", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+    letter-spacing: 30px;
+    margin: 0;
+}
+#blurb{
+	position: absolute;
+	left: 30px;
+	bottom: 10px;
+}
+#services{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 100px;
+
+}
+.card{
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+}
+.card:first-child{
+	margin-left: 0px;
+}
+.card h4{
+	font-family:"open sans", sans-serif;
+	text-align: center;
+}
+.clearfix{
+	clear: both;
+}
+.footsec{
+	background-color: #88EBF2;
+
+}
+.bottomPortion{
+	width: 1000px;
+	height: 260px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	padding-bottom: 30px;
+
+}
+.part1{
+	width: 960px;
+}
+.part1 img{
+	width: 300px;
+	margin-right: 20px;
+	float: left;
+
+}
+.part1 p{
+	font-family: "open sans", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	color: #208389;
+	padding-top: 30px;
+
+
+}
+.part2{
+	width: 100%;
+}
+.part2 p{
+	font-size: 14px;
+	color: #208389;
+	clear: right;
+}
+.part2 img{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+.part2c:first-child{
+	margin-left: 0px;
+}
+.part2c{
+	float: left;
+	margin-left: 30px;
+	width: 300px;
+}
+.part3 ul li{
+	list-style: none;
+	font-family: "open sans", sans-serif;
+	font-size: 12px;
+	letter-spacing: 3px;
+	float: left;
+    margin-left: 42px;
+    margin-top: 25px;
+}
+.part3 ul li:first-child{
+	margin-left: 30px;
+
+}
+.part3 ul li a:hover{
+	color: white;
+}
+.part3 ul li a{
+	text-decoration: none;
+	color: black;
+}
+.base{
+	background-color: #60a3a9;
+	width: 100%;
+	padding-top: 10px;
+	height: 50px;
+}
+.inside{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "open sans", sans-serif;
+	font-size: 12px;
+	color: #0d7076;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
 }
